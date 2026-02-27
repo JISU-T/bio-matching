@@ -59,7 +59,7 @@
   /* CLASS SELECT */
   #screen-class { align-items: center; justify-content: center; padding: 40px 20px; }
   .class-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 48px 40px; max-width: 460px; width: 100%; text-align: center; }
-  .class-card h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 8px; }
+  .class-card h2 { font-family: 'Noto Sans KR', sans-serif; font-size: 1.8rem; margin-bottom: 8px; }
   .class-card p { color: var(--muted); margin-bottom: 32px; font-size: 0.95rem; }
   .class-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 28px; }
   .class-btn { background: var(--surface2); border: 2px solid var(--border); color: var(--text); border-radius: 8px; padding: 14px 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.18s; }
@@ -68,7 +68,7 @@
   /* GAME */
   #screen-game { flex-direction: column; min-height: 100vh; padding-bottom: 40px; }
   .game-header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; position: sticky; top: 0; z-index: 100; }
-  .game-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; }
+  .game-title { font-family: 'Noto Sans KR', sans-serif; font-size: 1.2rem; }
   .game-meta { display: flex; align-items: center; gap: 20px; }
   .timer { font-size: 1.5rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 1px; }
   .progress-info { color: var(--muted); font-size: 0.9rem; }
@@ -76,7 +76,7 @@
   .game-progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent2), var(--accent)); transition: width 0.5s ease; }
   .game-body { max-width: 1100px; margin: 0 auto; padding: 32px 20px; width: 100%; }
   .instruction { text-align: center; margin-bottom: 32px; }
-  .instruction h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 8px; }
+  .instruction h2 { font-family: 'Noto Sans KR', sans-serif; font-size: 1.5rem; margin-bottom: 8px; }
   .instruction p { color: var(--muted); font-size: 0.95rem; }
   .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
   @media(max-width: 640px) { .columns { grid-template-columns: 1fr; } }
@@ -96,7 +96,7 @@
   /* COUNTDOWN */
   #countdown-overlay { display: none; position: fixed; inset: 0; background: rgba(15,14,23,0.92); backdrop-filter: blur(6px); z-index: 500; align-items: center; justify-content: center; flex-direction: column; }
   #countdown-overlay.show { display: flex; }
-  .countdown-number { font-family: 'Playfair Display', serif; font-size: 10rem; font-weight: 900; color: var(--accent); line-height: 1; animation: countPop 0.9s ease forwards; }
+  .countdown-number { font-family: 'Noto Sans KR', sans-serif; font-size: 10rem; font-weight: 900; color: var(--accent); line-height: 1; animation: countPop 0.9s ease forwards; }
   .countdown-label { font-size: 1.1rem; color: var(--muted); margin-top: 16px; letter-spacing: 2px; text-transform: uppercase; }
   @keyframes countPop { 0% { transform: scale(1.4); opacity: 0; } 30% { transform: scale(1); opacity: 1; } 70% { transform: scale(1); opacity: 1; } 100% { transform: scale(0.7); opacity: 0; } }
 
@@ -105,7 +105,7 @@
   .complete-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 56px 40px; max-width: 500px; width: 100%; }
   .trophy { font-size: 72px; margin-bottom: 20px; display: block; animation: bounce 1s ease infinite alternate; }
   @keyframes bounce { from { transform: scale(1); } to { transform: scale(1.08); } }
-  .complete-card h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 8px; color: var(--accent); }
+  .complete-card h2 { font-family: 'Noto Sans KR', sans-serif; font-size: 2rem; margin-bottom: 8px; color: var(--accent); }
   .complete-card > p { color: var(--muted); margin-bottom: 12px; }
   .time-display { font-size: 3rem; font-weight: 900; color: var(--accent); font-variant-numeric: tabular-nums; margin: 16px 0 4px; letter-spacing: 2px; }
   .time-label { font-size: 0.85rem; color: var(--muted); margin-bottom: 28px; }
